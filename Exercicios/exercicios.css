@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+h1{
+
+}
+
+h2{
+
+}
+/* ------------------------------------------------------ */
+.grid-item {
+    background-color: #FFAFD7;
+    padding: 20px;
+    text-align: center;
+    border: 2px black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 1px #2D2D2D, 0 0 10px rgba(0,0,0,0.3);
+}
+/* ------------------------------------------------------- */
+.gridContainer-Introducao{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 100px 100px; 
+    gap: 15px; 
+    padding: 10px;
+    
+}
+
+.grid-container-Aritmeticos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 100px 100px; 
+    gap: 15px; 
+    padding: 10px;
+    
+}
+
+.grid-container-Condicionais{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 100px 100px; 
+    gap: 15px; 
+    padding: 10px;
+}
+
+.grid-container-Fixo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 100px 100px; 
+    gap: 15px; 
+    padding: 10px;
+}
+
+.grid-container-lacos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 100px 100px; 
+    gap: 15px; 
+    padding: 10px;
+}
+
+.grid-container-funcoes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 100px 100px; 
+    gap: 15px; 
+    padding: 10px;
+}
+/* ------------------------------------------------------------------------------------- */
