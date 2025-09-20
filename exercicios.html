@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exercícios</title>
+  <link rel="stylesheet" href="exercicios.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Exercícios</h1>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#introducao">Introdução</a></li>
+          <li><a href="#aritmeticos">Aritméticos</a></li>
+          <li><a href="#condicionais">Condicionais</a></li>
+          <li><a href="#fixacao">Fixação</a></li>
+          <li><a href="#lacos">Laços</a></li>
+          <li><a href="#funcoes">Funções</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Introdução -->
+    <section id="introducao" class="section">
+      <h2>Introdução</h2>
+      <div class="grid-container">
+        <article class="grid-item" id="ex01">Crie um script que pergunte o nome do usuário e, em seguida, exiba uma
+          mensagem de
+          boas-vindas personalizada na tela, como "Olá, [nome do usuário]!".</article>
+
+        <article class="grid-item" id="ex02">Crie um script que pergunte a disciplina favorita ao usuário, e exiba um
+          alerta
+          informando “A matéria {matéria} realmente é ótima”.</article>
+
+        <article class="grid-item" id="ex03">Peça ao usuário informar a data de hoje (por ex.: "DD/MM/AAAA") e mostre um
+          agradecimento com a data informada.</article>
+
+        <article class="grid-item" id="ex04">Pergunte ao usuário “Está preparado para o segundo semestre de
+          desenvolvimento de
+          sistemas?” (resposta Sim/Não) e exiba uma mensagem de incentivo.</article>
+      </div>
+    </section>
+
+    <!-- Operadores Aritméticos -->
+    <section id="aritmeticos" class="section">
+      <h2>Operadores Aritméticos</h2>
+      <div class="grid-container">
+        <article class="grid-item" id="ex05">Peça ao usuário para inserir dois números. Calcule e exiba o resultado das
+          quatro
+          operações aritméticas básicas (soma, subtração, multiplicação e divisão) entre esses dois números.</article>
+
+        <article class="grid-item" id="ex06">Crie um programa que solicite ao usuário as notas de três provas. Calcule e
+          exiba a
+          média aritmética dessas notas.</article>
+
+        <article class="grid-item" id="ex07">Calcule a diferença entre 2 números.</article>
+
+        <article class="grid-item" id="ex08">Crie um programa que pergunte a largura e a altura de uma parede. Sabendo
+          que 1 litro
+          de tinta pinta 2 metros quadrados, calcule quantos litros de tinta serão necessários.</article>
+
+        <article class="grid-item" id="ex09">Solicite 2 números e verifique se o 1º é múltiplo do 2º. (ex.: 9 é múltiplo
+          de 3)
+        </article>
+
+        <article class="grid-item" id="ex10">Converta uma temperatura de Celsius para Fahrenheit (°F = °C × 9/5 + 32).
+        </article>
+
+        <article class="grid-item" id="ex11">Calcule a área (base * altura).</article>
+      </div>
+    </section>
+
+    <!-- Condicionais -->
+    <section id="condicionais" class="section">
+      <h2>Operadores Lógicos e Condicionais</h2>
+      <div class="grid-container">
+        <article class="grid-item">Peça a idade do usuário e verifique se ele é maior de idade (18 anos ou mais). Exiba
+          "Maior de idade" ou "Menor de idade".</article>
+
+        <article class="grid-item">Verifique se um número informado é positivo, negativo ou zero.</article>
+
+        <article class="grid-item">Verifique se um número informado é par ou ímpar.</article>
+
+        <article class="grid-item">Defina uma senha em uma variável. Peça ao usuário para digitar uma senha e verifique
+          se a senha digitada é igual à senha armazenada. Exiba "Acesso permitido" ou "Acesso negado" (use ===).
+        </article>
+
+        <article class="grid-item">Solicite as notas do aluno e verifique se ele passou (média >= 7) ou não.</article>
+      </div>
+    </section>
+
+    <!-- Fixação -->
+    <section id="fixacao" class="section">
+      <h2>Exercícios de Fixação</h2>
+      <div class="grid-container">
+        <article class="grid-item">Solicite duas notas ao usuário e informe se a média está acima de 6.0 e se cada nota
+          é par; mostre o resultado.</article>
+
+        <article class="grid-item">Solicite o peso (kg) e a altura (m) de uma pessoa e calcule o IMC (peso / altura²).
+          Mostre a classificação (magreza, normal, sobrepeso, obesidade).</article>
+
+        <article class="grid-item">Verifique se um ano informado é bissexto (divisível por 4, exceto os múltiplos de 100
+          que não são de 400).</article>
+
+        <article class="grid-item">Calcule a média ponderada de 3 notas com pesos (ex.: n1 peso 2, n2 peso 3, n3 peso
+          5).</article>
+      </div>
+    </section>
+
+    <!-- Laços -->
+    <section id="lacos" class="section">
+      <h2>Exercícios de Laços de Repetição</h2>
+      <div class="grid-container">
+        <article class="grid-item">Simule um jogo onde o usuário "pensa" em um número de 1 a 100 e o programa tem que
+          adivinhar com um número limitado de chutes (implemente uma estratégia).</article>
+
+        <article class="grid-item">Peça um número ao usuário de 1 a 9 e imprima a tabuada desse valor (1×n … 10×n).
+        </article>
+
+        <article class="grid-item">Simule "Pedra, Papel e Tesoura" contra o computador (para simplificar, o usuário pode
+          escolher qualquer opção).</article>
+
+        <article class="grid-item">Crie um programa que calcula o fatorial de um número (ex.: 5! = 1×2×3×4×5 = 120).
+        </article>
+      </div>
+    </section>
+
+    <!-- Funções -->
+    <section id="funcoes" class="section">
+      <h2>Exercícios de Funções</h2>
+      <div class="grid-container">
+        <article class="grid-item">Faça uma calculadora (soma, subtração, multiplicação, divisão) usando Arrow
+          Functions.</article>
+
+        <article class="grid-item">Peça uma idade e diga se a pessoa pode tirar carteira de motorista (>=18 anos).
+        </article>
+
+        <article class="grid-item">Criar um programa que peça três números e exiba-os em ordem crescente.</article>
+
+        <article class="grid-item">Escreva uma função que retorne o maior entre três números.</article>
+
+        <article class="grid-item">Escreva uma função que verifique se uma palavra é palíndroma.</article>
+      </div>
+    </section>
+  </main>
+
+  <div class="container">
+    <a href="index.html" class="btnVoltar">Voltar ao início</a>
+  </div>
+
+
+  <script src="exercicios.js"></script>
+</body>
+
+</html>

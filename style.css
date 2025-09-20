@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=VT323&family=Dosis:wght@300;600&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #CDB4F5 url("https://i.pinimg.com/originals/13/a1/22/13a122a75ae1ab3c918041e784aaa264.gif") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Dosis", sans-serif;
+  color: #2D2D2D;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navegação */
+.nav {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2D2D2D;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #6A0DAD;
+}
+
+/* Foto de perfil */
+.fotoPerfil {
+  border-radius: 50%;
+  display: block;
+  margin: 2rem auto;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid #2D2D2D;
+}
+
+/* Texto principal */
+h1 {
+  font-family: "Gorditas", serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Caixa de apresentação */
+.box {
+  max-width: 750px;
+  border: 2px solid #2D2D2D;
+  padding: 2rem;
+  margin: auto;
+  background: linear-gradient(100deg, #CDB4F5, #A5D9FF);
+  border-radius: 25px;
+  box-shadow: 8px 8px 0 #2D2D2D, 0 0 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 12px 12px 0 #2D2D2D, 0 0 25px rgba(0,0,0,0.4);
+}
+
+.box p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Contatos */
+#contatos {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+#contatos h2 {
+  font-family: "Gorditas", serif;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: #2D2D2D;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #6A0DAD;
+}
+
+/* Rodapé */
+footer {
+  background-color: #CDB4F5;
+  color: #2D2D2D;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  border-top: 2px solid #2D2D2D;
+}
